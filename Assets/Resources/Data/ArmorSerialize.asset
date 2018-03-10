@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c95b205c266fcc54c9644ac109128988, type: 3}
+  m_Name: ArmorSerialize
+  m_EditorClassIdentifier: 
+  mArmors:
+  - Id: 1
+    ArmorName: "\u7C97\u5236\u91D1\u5C5E\u80F8\u677F"
+    ArmorType: "\u8EAF\u5E72\u62A4\u7532"
+    ArmorValue: 6
+    DamageReduction: 0.03
+    Weight: 12
+    Price: 1500
+    Model: 
+  - Id: 2
+    ArmorName: "\u786C\u76AE\u5939\u514B"
+    ArmorType: "\u8EAF\u5E72\u62A4\u7532"
+    ArmorValue: 1
+    DamageReduction: 0.05
+    Weight: 5
+    Price: 850
+    Model: 
+  - Id: 3
+    ArmorName: "\u786C\u76AE\u7532"
+    ArmorType: "\u8EAF\u5E72\u62A4\u7532"
+    ArmorValue: 2
+    DamageReduction: 0.02
+    Weight: 6.5
+    Price: 1050
+    Model: 
+  - Id: 4
+    ArmorName: "\u5851\u6599\u5934\u76D4"
+    ArmorType: "\u5934\u90E8\u62A4\u7532"
+    ArmorValue: 2
+    DamageReduction: 0.02
+    Weight: 3
+    Price: 750
+    Model: 
+  - Id: 5
+    ArmorName: "\u91D1\u5C5E\u5934\u76D4"
+    ArmorType: "\u5934\u90E8\u62A4\u7532"
+    ArmorValue: 6
+    DamageReduction: 0.03
+    Weight: 5
+    Price: 1500
+    Model: 

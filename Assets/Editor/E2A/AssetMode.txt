@@ -1,0 +1,19 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
+public class #ScriptName#Serialize : ScriptableObject
+{
+    public List<#ScriptName#> m#ScriptName#s = new List<#ScriptName#>();
+
+#if UNITY_EDITOR
+    public void SetDatas(object[] obj)
+    {
+        m#ScriptName#s.Clear();
+        foreach (object o in obj)
+        {
+            m#ScriptName#s.Add(o as #ScriptName#);
+        }
+    }
+#endif
+}
